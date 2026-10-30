@@ -1,0 +1,7 @@
+﻿services:
+  directorytreeviewer:
+    image: directorytreeviewer
+    build:
+      context: .
+      dockerfile: Dockerfile
+
